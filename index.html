@@ -3,57 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Portfolio</title>
+  <title>Angy Atahona Portfolio</title>
 
-     <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+  <!-- NAV -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="assets/img/logo.png" alt="Logo Angy">
+      </div>
 
-    <header>
-        <nav class="navbar">
-            <div class="logo">Angy</div>
-            
-            <ul class="nav-links">
-                <li><a href="#hero">Inicio</a></li>
-                 <li><a href="#about">Sobre mi</a></li>
-                  <li><a href="#portfolio">Portfolio</a></li>
-                   <li><a href="#contact">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-    <section class="hero" id="hero">
-    <div class="hero-content">
-      <h1>Angy Atahona</h1>
-      <p>Fotógrafa & Filmmaker</p>
-    </div>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#rates">Tarifas</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+<section id="hero" class="hero fade-in">
+
+  <div class="hero-camera">
+    <img src="assets/img/sony.png" alt="Cámara Sony">
+  </div>
+
+  <div class="hero-content">
+    <h1>Angy Atahona</h1>
+    <h2>Fotografía & Reels</h2>
+    <p>Retratos · Eventos · Restaurantes · Contenido visual para redes sociales</p>
+  </div>
+
+</section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section about fade-in">
+      <div class="about-container">
+
+        <div class="about-text">
+          <h2>Sobre mí</h2>
+          <p>
+            Soy fotógrafa y creadora de contenido visual. Trabajo en retratos, eventos, fotografía de restaurantes y creación de reels para redes sociales.
+          </p>
+        </div>
+
+        <div class="about-image">
+          <img src="assets/img/angy-camara.jpg" alt="Angy con cámara">
+        </div>
+
+      </div>
     </section>
-    
-    <section id="about">
-    <div class="about-container">
-    <div class="about-text">
-        <h2>Sobre mi</h2>
-        <p>Soy Angy Atahona, fotógrafa y filmmaker en Barcelona. Me especializo en retrato, aunque también trabajo en moda, producto y fotografía de eventos. Mi enfoque se basa en capturar la esencia y la autenticidad de cada persona a través de la imagen.</p>
-    </div>
-    <div class="about-image">
-            <img src="assets/img/angy-camara.jpg" alt="Angy fotógrafa">
-     </div>
-    
-    </div>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section fade-in">
+      <h2 class="section-title">Portfolio</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <img src="assets/img/retrato1.jpg" alt="Retrato">
+        </div>
+
+        <div class="card">
+          <img src="assets/img/evento1.jpg" alt="Evento">
+        </div>
+
+        <div class="card">
+          <img src="assets/img/restaurante1.jpg" alt="Restaurante">
+        </div>
+
+        <div class="card">
+          <img src="assets/img/reels1.jpg" alt="Reel">
+        </div>
+
+      </div>
     </section>
-    
-    <section id="portfolio">
+
+    <!-- TARIFAS -->
+    <section id="rates" class="section fade-in">
+      <h2 class="section-title">Tarifas</h2>
+
+      <div class="rates">
+        <div class="rate-card">
+          <h3>Retrato</h3>
+          <p>Sesiones individuales o pareja</p>
+        </div>
+
+        <div class="rate-card">
+          <h3>Eventos</h3>
+          <p>Cobertura fotográfica completa</p>
+        </div>
+
+        <div class="rate-card">
+          <h3>Reels</h3>
+          <p>Contenido para redes sociales</p>
+        </div>
+      </div>
     </section>
-    
-    <section id="contact">
+
+    <!-- CONTACTO -->
+    <section id="contact" class="section fade-in">
+      <h2 class="section-title">Contacto</h2>
+
+      <form class="form">
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Mensaje"></textarea>
+        <button type="submit">Enviar</button>
+      </form>
     </section>
-    
+
   </main>
-    <footer>
-        
-    </footer>
 
-    <script src="js/main.js"></script>
+  <!-- CURSOR -->
+  <div class="cursor"></div>
+  <div class="cursor-glow"></div>
+
+  <script src="js/main.js"></script>
 </body>
-</html>    
+</html>
